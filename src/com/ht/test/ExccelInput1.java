@@ -13,7 +13,7 @@ import java.io.InputStream;
 public class ExccelInput1 {
     public static void main(String[] args) throws IOException {
         //得到文件输入流
-        InputStream inputStream = new FileInputStream(new File("E:\\学习资料\\第四学期\\Excel（POI）+Quartz+Open CSV\\T1\\test.xls"));
+        InputStream inputStream = new FileInputStream(new File("E:\\学习资料\\Excel（POI）+Quartz+Open CSV\\T1\\test.xls"));
         //通过文件输入流得到Excel文档对象
         HSSFWorkbook hssfWorkbook = new HSSFWorkbook(inputStream);
         //获取工作表个数，循环工作表
